@@ -3,74 +3,110 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Programación: El Arte de Crear con Código</title>
+  <title>Programación con GitHub Pages</title>
   <style>
-    /* Estilos modernos y limpios */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
     }
     header {
-      background: #007bff;
-      color: white;
-      padding: 10px 0;
       text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      font-weight: 700;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.5);
     }
     main {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2.5em;
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      max-width: 900px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      padding: 30px;
+      backdrop-filter: blur(8px);
     }
     h2 {
-      color: #007bff;
+      color: #ffd633;
+      margin-top: 0;
+      font-weight: 700;
+    }
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
     }
     footer {
+      margin-top: 40px;
       text-align: center;
-      padding: 10px 0;
-      background: #007bff;
-      color: white;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Programación: El Arte de Crear con Código</h1>
+    <h1>Programación con GitHub Pages</h1>
+    <p>Una página sencilla para aprender sobre programación y alojarla gratis en GitHub</p>
   </header>
   <main>
-    <h2>¿Qué es la Programación?</h2>
-    <p>
-      La programación es el proceso de diseñar y construir un conjunto de instrucciones que le dicen a una computadora cómo realizar una tarea. Se utiliza en una variedad de aplicaciones, desde el desarrollo de software hasta la creación de sitios web.
-    </p>
-    
-    <h2>Lenguajes de Programación</h2>
-    <p>
-      Existen muchos lenguajes de programación, cada uno con sus propias características y usos. Algunos de los más populares son:
-    </p>
-    <ul>
-      <li>Python: Conocido por su simplicidad y versatilidad.</li>
-      <li>JavaScript: Esencial para el desarrollo web.</li>
-      <li>Java: Ampliamente utilizado en aplicaciones empresariales.</li>
-      <li>C++: Conocido por su rendimiento y control sobre los recursos del sistema.</li>
-    </ul>
+    <section>
+      <h2>¿Qué es la programación?</h2>
+      <p>La programación es el proceso mediante el cual creamos instrucciones que una computadora puede entender y ejecutar. Es la base para desarrollar aplicaciones, sitios web, software y soluciones tecnológicas de todo tipo.</p>
+    </section>
 
-    <h2>¿Por qué Aprender a Programar?</h2>
-    <p>
-      Aprender a programar puede abrir muchas puertas en el mundo laboral. Además, fomenta el pensamiento lógico y la resolución de problemas. Es una habilidad valiosa en la era digital actual.
-    </p>
+    <section>
+      <h2>Lenguajes populares de programación</h2>
+      <ul>
+        <li><strong>Python:</strong> Fácil de aprender, muy usado en ciencia de datos, inteligencia artificial y desarrollo web.</li>
+        <li><strong>JavaScript:</strong> El lenguaje del navegador, indispensable para crear sitios web interactivos.</li>
+        <li><strong>Java:</strong> Muy utilizado en aplicaciones empresariales y móviles (Android).</li>
+        <li><strong>C++:</strong> Lenguaje poderoso usado para desarrollo de software que requiere alto rendimiento.</li>
+        <li><strong>Ruby:</strong> Lenguaje elegante y usado para desarrollo web con frameworks como Rails.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cómo publicar tu página web en GitHub Pages</h2>
+      <p>GitHub Pages te permite alojar sitios web estáticos gratuitamente. Solo necesitas:</p>
+      <ol>
+        <li>Crear un repositorio en GitHub.</li>
+        <li>Subir tu archivo <code>index.html</code> con tu código HTML.</li>
+        <li>En la configuración del repositorio, activar GitHub Pages desde la rama <code>main</code> o <code>master</code>.</li>
+        <li>Visitar la URL proporcionada por GitHub para ver tu página online.</li>
+      </ol>
+      <p>Es una forma fácil y gratuita de compartir tus proyectos y páginas con el mundo.</p>
+    </section>
+    
   </main>
+
   <footer>
-    <p>&copy; 2023 Programación para Todos</p>
+    <p>&copy; 2024 Programación con GitHub Pages | Crear y compartir tu sitio web gratis</p>
   </footer>
 </body>
 </html>
+
